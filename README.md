@@ -1,16 +1,19 @@
-# React + Vite
+# 🎓 高中生備考戰情室 (Study Station)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+這是一個專為高中生設計的「無後端、高隱私」備考工具。不依賴網路，所有學習數據皆儲存於本地瀏覽器 (Local Storage)。
 
-Currently, two official plugins are available:
+### 🌟 專案亮點 (Features)
+1.  **🚑 情緒急診室 (Mental Triage)**：
+    - 針對 9 種考前常見情緒（焦慮、迷茫、嫉妒...）提供具體心理學處方籤與引導練習。
+2.  **⏱️ 專注作戰區 (Focus Zone)**：
+    - 整合大考倒數日、番茄鐘計時器與今日任務清單。
+3.  **📈 技能進度存摺 (Streak Tracker)**：
+    - 遊戲化追蹤機制，視覺化呈現「連續堅持天數」，建立長期習慣。
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🛠️ 技術棧 (Tech Stack)
+- **Frontend**: React + Vite
+- **Styling**: Tailwind CSS (v4)
+- **Deployment**: GitHub Pages
+- **Storage**: LocalStorage API (No Backend Required)
+### 🔗 線上體驗網址 (作業連結)
+👉 **[點擊這裡進入戰情室](https://b13401059-cmyk.github.io/high-school-study-ai/)**
