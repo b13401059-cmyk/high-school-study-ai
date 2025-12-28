@@ -1,19 +1,71 @@
 # 🎓 高中生備考戰情室 (Study Station)
 
-這是一個專為高中生設計的「無後端、高隱私」備考工具。不依賴網路，所有學習數據皆儲存於本地瀏覽器 (Local Storage)。
+> **專為高中生打造的「無後端、高隱私」數位學習軍師。** > 不依賴網路帳號，所有學習數據（倒數日、待辦、進度）皆安全儲存於您的瀏覽器本機 (Local Storage)。
 
-### 🌟 專案亮點 (Features)
-1.  **🚑 情緒急診室 (Mental Triage)**：
-    - 針對 9 種考前常見情緒（焦慮、迷茫、嫉妒...）提供具體心理學處方籤與引導練習。
-2.  **⏱️ 專注作戰區 (Focus Zone)**：
-    - 整合大考倒數日、番茄鐘計時器與今日任務清單。
-3.  **📈 技能進度存摺 (Streak Tracker)**：
-    - 遊戲化追蹤機制，視覺化呈現「連續堅持天數」，建立長期習慣。
+---
 
-### 🛠️ 技術棧 (Tech Stack)
-- **Frontend**: React + Vite
-- **Styling**: Tailwind CSS (v4)
-- **Deployment**: GitHub Pages
-- **Storage**: LocalStorage API (No Backend Required)
-### 🔗 線上體驗網址 (作業連結)
-👉 **[點擊這裡進入戰情室](https://b13401059-cmyk.github.io/high-school-study-ai/)**
+## 🚀 立即使用 (Live Demo)
+👉 **[點擊這裡進入戰情室 (Start App)](https://b13401059-cmyk.github.io/high-school-study-ai/)**
+
+---
+
+## 📖 使用指南 (User Guide)
+
+本應用程式包含三大核心功能模組，幫助你在考前穩定心態、高效學習與建立習慣。
+
+### 1. 🚑 情緒急診室 (Mental Triage)
+**「當你讀不下書時，先來這裡掛號。」**
+* **功能**：針對考前常見的 9 種負面情緒（如：焦慮、迷茫、崩潰、失眠...）提供即時的心理急救。
+* **如何使用**：
+    1.  點擊符合你當下心情的按鈕（例如「焦慮」）。
+    2.  系統會彈出對應的心理學處方籤（例如「4-7-8 呼吸法」或「著陸練習」）。
+    3.  跟著畫面上的 **Action Plan** 執行，幫助大腦降溫。
+
+### 2. ⏱️ 專注作戰區 (Focus Zone)
+**「你的讀書控制台，資料自動保存。」**
+* **大考倒數**：
+    * 直接輸入考試名稱（如「114 學測」）與日期。
+    * 系統會自動計算剩餘天數，且**關閉視窗後資料不會消失**。
+* **番茄鐘 (Pomodoro)**：
+    * 內建 **25分鐘專注 / 5分鐘休息** 模式切換。
+    * 按下 Start 開始倒數，幫助你進入心流狀態。
+* **今日作戰清單**：
+    * 輸入任務按 Enter 新增，點擊核取方塊完成，點擊垃圾桶刪除。
+    * 所有清單皆儲存於 Local Storage，明天打開還會在。
+
+### 3. 📈 技能進度存摺 (Streak Tracker)
+**「遊戲化累積實力，看見堅持的力量。」**
+* **功能**：模仿 Duolingo 的連續打卡機制，建立長期習慣。
+* **如何使用**：
+    1.  輸入一個長期目標（例如：背 7000 單字、每天算數學）。
+    2.  每天完成後，回來點擊 **「🔥 立即打卡」**。
+    3.  看著 **Days Streak (連續天數)** 數字增加，獲得成就感！
+
+---
+
+## 🛠️ 技術架構 (Tech Stack)
+本專案為純前端應用 (Single Page Application)，符合現代化網頁開發標準。
+
+* **核心框架**: React 19 + Vite 7
+* **介面設計**: Tailwind CSS v4 (RWD 響應式設計)
+* **資料儲存**: LocalStorage API (取代傳統資料庫，確保隱私)
+* **版本控制**: Git & GitHub
+* **自動化部署**: GitHub Pages
+
+---
+
+## 📦 如何在本地端執行 (Installation)
+如果您想下載程式碼並在自己的電腦上開發，請執行以下指令：
+
+```bash
+# 1. 下載專案
+git clone [https://github.com/b13401059-cmyk/high-school-study-ai.git](https://github.com/b13401059-cmyk/high-school-study-ai.git)
+
+# 2. 進入資料夾
+cd high-school-study-ai
+
+# 3. 安裝依賴套件
+npm install
+
+# 4. 啟動開發伺服器
+npm run dev
